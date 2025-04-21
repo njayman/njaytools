@@ -33,7 +33,7 @@ export default function PrivacyPage() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              Google's Ads Settings
+              {`Google's Ads Settings`}
             </a>
           </b>
           .
