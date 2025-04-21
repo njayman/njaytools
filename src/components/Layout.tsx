@@ -12,7 +12,7 @@ const Layout: FC<LayoutProps> = ({ children, title, description }) => {
     <>
       <Head>
         <title>
-          {title ? `${title} – Tools by Njayman` : "Tools by Njayma-n"}
+          {title ? `${title} – Tools by Njayman` : "Tools by Njayman"}
         </title>
         <meta
           name="description"
@@ -22,7 +22,9 @@ const Layout: FC<LayoutProps> = ({ children, title, description }) => {
       <div className="min-h-screen flex flex-col bg-white dark:bg-gray-900 text-gray-800 dark:text-white">
         <header className="sticky top-0 z-50 bg-white dark:bg-gray-900 shadow">
           <div className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-            <h1 className="text-xl font-bold">🧰 Tools by Njayman</h1>
+            <Link href="/">
+              <h1 className="text-xl font-bold">🧰 Tools by Njayman</h1>
+            </Link>
           </div>
         </header>
 
